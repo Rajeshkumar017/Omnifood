@@ -1,6 +1,5 @@
 'use strict';
 let num = Math.trunc(Math.random() * 20) + 1;
-console.log(num);
 let score = Number(document.querySelector('.score').textContent);
 let highscore = 0;
 document.querySelector('.check').addEventListener('click', function () {
